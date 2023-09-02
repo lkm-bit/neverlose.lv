@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "NEVERLOSE.LV", HidePremium = false, SaveConfig = true, ConfigFolder = "Neverloselv"})
+local Window = OrionLib:MakeWindow({Name = "NEVERLOSE.LV", HidePremium = false, SaveConfig = true, IntroText = neverlose.lv, ConfigFolder = "Neverloselv"})
 
 local Tab = Window:MakeTab({
 	Name = "main",
