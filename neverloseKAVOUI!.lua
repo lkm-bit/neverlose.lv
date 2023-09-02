@@ -20,8 +20,6 @@ Section:NewButton("fly gui (mobile)", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 end)
 
-local Tab = Window:NewTab("aimbot")
-
 Section:NewButton("aimbot v3 (creds to exunys)", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()()
 end)
