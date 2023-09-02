@@ -1,11 +1,11 @@
 -- Discord Key System: https://discord.gg/9G46pAJFfR
 setclipboard("https://discord.gg/9G46pAJFfR")
 
-local key = "your key"
+local key = "neverloselvrelease"
 
 pcall(function()
     if key == game:HttpGet("https://https://keysystem.ml/verify/your_app_name?verify_key="..key) then
-        print("Good")
+        print("key system done")
     end
 end)
 
@@ -54,5 +54,9 @@ local Tab = Window:MakeTab({
 	Name = "player",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "created by frls1"
 })
 
