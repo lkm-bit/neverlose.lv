@@ -1,13 +1,3 @@
--- Discord Key System: https://discord.gg/9G46pAJFfR
-setclipboard("https://discord.gg/9G46pAJFfR")
-
-local key = "neverloselvrelease"
-
-pcall(function()
-    if key == game:HttpGet("https://https://keysystem.ml/verify/your_app_name?verify_key="..key) then
-        print("key system done")
-    end
-end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "NEVERLOSE.LV", HidePremium = false, SaveConfig = true, ConfigFolder = "Neverloselv"})
