@@ -49,3 +49,9 @@ local Section = Tab:AddSection({
 	Name = "created by frls1"
 })
 
+Tab:AddButton({
+	Name = "aimbot v3 (credits to exunys)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()()
+  	end    
+})
