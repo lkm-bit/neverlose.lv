@@ -5,5 +5,5 @@ local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("created by frls1, do not steal!")
 
 Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
