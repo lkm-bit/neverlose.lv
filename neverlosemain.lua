@@ -1,3 +1,14 @@
+-- Discord Key System: https://discord.gg/9G46pAJFfR
+setclipboard("https://discord.gg/9G46pAJFfR")
+
+local key = "your key"
+
+pcall(function()
+    if key == game:HttpGet("https://https://keysystem.ml/verify/your_app_name?verify_key="..key) then
+        print("Good")
+    end
+end)
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "NEVERLOSE.LV", HidePremium = false, SaveConfig = true, ConfigFolder = "Neverloselv"})
 
@@ -16,5 +27,32 @@ OrionLib:MakeNotification({
 
 local Section = Tab:AddSection({
 	Name = "created by frls1"
+})
+
+Tab:AddButton({
+	Name = "vape v4",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()	
+  	end    
+})
+
+Tab:AddButton({
+	Name = "inf yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "fly gui (mobile)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
 })
 
