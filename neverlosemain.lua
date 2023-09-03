@@ -39,6 +39,14 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "aimbot v3 (credits to exunys)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()()
+  	end    
+})
+
+
 local Tab = Window:MakeTab({
 	Name = "player",
 	Icon = "rbxassetid://4483345998",
@@ -50,8 +58,10 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "aimbot v3 (credits to exunys)",
+	Name = "inf jump",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()()
+      		game:GetService("UserInputService").JumpRequest:connect(function()
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")       
+    end)
   	end    
 })
