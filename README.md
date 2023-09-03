@@ -1,5 +1,9 @@
-Hello. This is my first gui im doing,some updates will be soon,but for now,im doing the loadstring.
-loadstring done, update gonna be soon
+project closed.
+Why its closed?
+Beacuse youtube keeps deleting my channels
 
-OUR ONLY ORIGINAL SITE:
-https://sites.google.com/view/neverlose-lc/main
+anyways code is availabale in lua's
+
+our site:https://sites.google.com/view/neverlose-lc/main
+
+ggwp --frls1
