@@ -14,6 +14,13 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
+OrionLib:MakeNotification({
+	Name = "ggwp - frls1",
+	Content = "project closed. more about on github.com/lkm-bit/neverlose.lv",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 local Section = Tab:AddSection({
 	Name = "created by frls1"
 })
